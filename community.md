@@ -1,6 +1,6 @@
 ---
 title: Community
-lede: Ways to follow, contribute to, and help shape the future of the Rubin Observatory.
+lede: Help shape the future of the Rubin Observatory
 ---
 
 Rubin Future is intended to be a hub for the community-led Rubin Future planning effort. 
