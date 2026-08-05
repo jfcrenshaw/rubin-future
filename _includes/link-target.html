@@ -1,0 +1,10 @@
+{%- assign raw_url = include.url | default: "" | strip -%}
+{%- assign first_char = raw_url | slice: 0, 1 -%}
+{%- assign first_four = raw_url | slice: 0, 4 -%}
+{%- assign first_seven = raw_url | slice: 0, 7 -%}
+{%- if raw_url == "" -%}
+{%- elsif raw_url == "#" or first_char == "#" or raw_url contains "://" or first_seven == "mailto:" or first_four == "tel:" -%}
+{{- raw_url -}}
+{%- else -%}
+{{- raw_url | relative_url -}}
+{%- endif -%}

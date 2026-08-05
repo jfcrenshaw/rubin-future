@@ -46,7 +46,7 @@ Edit `_data/documents.yml` and add a new entry:
 
 `description`, `year`, and `type` are optional.
 
-To link to an editable page that lives on this website, create a Markdown file and use a site-relative URL:
+To link to an editable page that lives on this website, create a Markdown file and use a root-relative site URL:
 
 ```yaml
 - title: Example editable materials page
@@ -56,6 +56,8 @@ To link to an editable page that lives on this website, create a Markdown file a
   year: 2026
   type: Website page
 ```
+
+Use root-relative paths for pages in this site; Jekyll adds the configured `/rubin-future` base path when building for GitHub Pages.
 
 ### Edit Pages
 
@@ -80,8 +82,10 @@ bundle install
 Preview the site:
 
 ```sh
-bundle exec jekyll serve
+bundle exec jekyll serve --baseurl ""
 ```
+
+This serves the site from `/` for local preview.
 
 Then open:
 

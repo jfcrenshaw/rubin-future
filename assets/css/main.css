@@ -379,7 +379,8 @@ h3 {
   list-style: none;
 }
 
-.inline-links a {
+.inline-links a,
+.inline-links span {
   display: inline-flex;
   align-items: center;
   min-height: 2rem;
@@ -389,7 +390,14 @@ h3 {
   background: #eef4f5;
   font-size: 0.92rem;
   font-weight: 700;
+}
+
+.inline-links a {
   text-decoration: none;
+}
+
+.inline-links span {
+  color: var(--muted);
 }
 
 .site-footer {
