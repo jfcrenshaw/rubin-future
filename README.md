@@ -46,6 +46,17 @@ Edit `_data/documents.yml` and add a new entry:
 
 `description`, `year`, and `type` are optional.
 
+To link to an editable page that lives on this website, create a Markdown file and use a site-relative URL:
+
+```yaml
+- title: Example editable materials page
+  category: Examples
+  url: "/pages/example-editable-page/"
+  description: This entry links to a Markdown page in this repo.
+  year: 2026
+  type: Website page
+```
+
 ### Edit Pages
 
 The main prose pages are Markdown files in the repository root:
@@ -70,6 +81,12 @@ Preview the site:
 
 ```sh
 bundle exec jekyll serve
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4000/
 ```
 
 Build without serving:

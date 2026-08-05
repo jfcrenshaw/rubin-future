@@ -12,6 +12,13 @@
   year: 2026
   type: Folder
 
+- title: Example editable materials page
+  category: Examples
+  url: "/pages/example-editable-page/"
+  description: This entry links to a Markdown page in this website that can be edited directly in the repo.
+  year: 2026
+  type: Website page
+
 - title: Rubin Observatory media use policy
   category: Reference
   url: "https://rubinobservatory.org/gallery/media-policy"

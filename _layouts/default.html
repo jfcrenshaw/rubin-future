@@ -1,23 +1,34 @@
 <!doctype html>
+{% assign relative_root = "" %}
+{% assign url_segments = page.url | split: "/" %}
+{% for segment in url_segments %}
+  {% if segment != "" %}
+    {% assign relative_root = relative_root | append: "../" %}
+  {% endif %}
+{% endfor %}
+{% if relative_root == "" %}
+  {% assign relative_root = "./" %}
+{% endif %}
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description | escape }}">
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ relative_root }}assets/css/main.css">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <nav class="site-nav" aria-label="Primary navigation">
-        <a class="brand" href="{{ '/' | relative_url }}">
+        <a class="brand" href="{{ relative_root }}">
           <span class="brand-mark" aria-hidden="true">RF</span>
           <span class="brand-text">Rubin Future</span>
         </a>
         <ul class="nav-list">
           {% for item in site.navigation %}
-            {% assign item_url = item.url | relative_url %}
+            {% assign item_path = item.url | remove_first: "/" %}
+            {% assign item_url = relative_root | append: item_path %}
             <li>
               <a href="{{ item_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
             </li>
