@@ -1,6 +1,6 @@
 ---
 title: Meetings
-lede: Workshops, discussion sessions, agendas, notes, and links for the Rubin Future planning effort.
+lede: Past and future workshops, and associated documents.
 ---
 
 {% assign meetings_by_date = site.data.meetings | sort: "date" %}
