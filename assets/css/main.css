@@ -224,6 +224,19 @@ a:hover {
   background: rgba(8, 11, 18, 0.32);
 }
 
+.construction-callout {
+  width: fit-content;
+  max-width: 100%;
+  margin: 1.25rem 0 0;
+  padding: 0.7rem 0.9rem;
+  border-left: 4px solid var(--sunset);
+  border-radius: 6px;
+  background: rgba(8, 11, 18, 0.54);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
 .content-section {
   padding: clamp(3rem, 7vw, 5.5rem) 0;
 }
