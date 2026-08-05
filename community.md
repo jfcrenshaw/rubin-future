@@ -3,7 +3,13 @@ title: Community
 lede: Help shape the future of the Rubin Observatory
 ---
 
-Rubin Future is intended to be a hub for the community-led Rubin Future planning effort. 
+This space is intended to be a hub for the community-led effort to plan for the next decade of science with the Rubin Observatory, after the LSST is completed. 
+The site is intentionally small and simple so that updates can happen through ordinary GitHub edits.
+
+This site serves to:
+    preserve a public record of meetings and workshops;
+    collect planning documents and reference materials;
+    make participation pathways transparent and approachable.
 
 ## How to Participate
 
