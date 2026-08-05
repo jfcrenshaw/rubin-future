@@ -37,7 +37,6 @@ Edit `_data/documents.yml` and add a new entry:
 
 ```yaml
 - title: Document title
-  category: Planning
   url: "https://example.org"
   description: Short description.
   year: 2026
@@ -50,7 +49,6 @@ To link to an editable page that lives on this website, create a Markdown file a
 
 ```yaml
 - title: Example editable materials page
-  category: Examples
   url: "/pages/example-editable-page/"
   description: This entry links to a Markdown page in this repo.
   year: 2026
