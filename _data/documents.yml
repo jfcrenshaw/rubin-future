@@ -11,6 +11,13 @@
   description: Placeholder for shared notes, agendas, and action items.
   year: 2026
   type: Folder
+  
+- title: Rubin 2036 workshop proceedings
+  category: Proceedings
+  url: "/pages/Rubin2036proceedings/"
+  description: Proceedings from Rubin 2036 workshop
+  year: 2026
+  type: Website page
 
 - title: Example editable materials page
   category: Examples
