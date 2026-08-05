@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark" aria-hidden="true">RF</span>
+          <span class="brand-text">Rubin Future</span>
+        </a>
+        <ul class="nav-list">
+          {% for item in site.navigation %}
+            {% assign item_url = item.url | relative_url %}
+            <li>
+              <a href="{{ item_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Rubin Future is a community planning effort for the post-LSST future of Rubin Observatory.</p>
+        <p class="fine-print">Hero image credit: NSF-DOE Vera C. Rubin Observatory/NOIRLab/SLAC/AURA/P. Lago.</p>
+      </div>
+    </footer>
+  </body>
+</html>

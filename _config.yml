@@ -1,0 +1,34 @@
+title: Rubin Future
+description: Community planning for the future of Rubin Observatory after LSST
+url: "https://jfcrenshaw.github.io"
+baseurl: "/rubin-future"
+
+markdown: kramdown
+permalink: pretty
+
+navigation:
+  - title: Home
+    url: /
+  - title: Meetings
+    url: /meetings/
+  - title: Documents
+    url: /documents/
+  - title: Community
+    url: /community/
+  - title: About
+    url: /about/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - .gitignore
+  - .ruby-version
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md

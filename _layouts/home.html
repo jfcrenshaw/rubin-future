@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<section class="home-hero" aria-label="Rubin Future">
+  <div class="hero-overlay">
+    <div class="wrap hero-content">
+      <p class="eyebrow">Community planning for the post-LSST era</p>
+      <h1>Rubin Future</h1>
+      <p class="hero-lede">
+        A shared home for discussions, meetings, documents, and working ideas about what Rubin Observatory can become after the Legacy Survey of Space and Time.
+      </p>
+      <div class="hero-actions" aria-label="Primary actions">
+        <a class="button button-primary" href="{{ '/meetings/' | relative_url }}">Meetings</a>
+        <a class="button button-secondary" href="{{ '/documents/' | relative_url }}">Documents</a>
+        <a class="button button-secondary" href="{{ '/community/' | relative_url }}">Participate</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section intro-band">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Purpose</p>
+      <h2>Plan early, openly, and with the community that Rubin enables.</h2>
+    </div>
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="wrap cards-grid">
+    <article class="feature-card">
+      <p class="card-kicker">Meetings</p>
+      <h3>Track workshops and discussion sessions</h3>
+      <p>Keep a record of past meetings and a clear view of upcoming community conversations.</p>
+      <a href="{{ '/meetings/' | relative_url }}">View meetings</a>
+    </article>
+    <article class="feature-card">
+      <p class="card-kicker">Documents</p>
+      <h3>Gather planning materials in one place</h3>
+      <p>Collect white papers, slide decks, notes, reports, and reference links as the effort grows.</p>
+      <a href="{{ '/documents/' | relative_url }}">Browse documents</a>
+    </article>
+    <article class="feature-card">
+      <p class="card-kicker">Community</p>
+      <h3>Make participation easy to find</h3>
+      <p>Point new contributors toward mailing lists, forums, working groups, contacts, and norms.</p>
+      <a href="{{ '/community/' | relative_url }}">Join the effort</a>
+    </article>
+  </div>
+</section>

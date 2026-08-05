@@ -1,0 +1,27 @@
+- title: Rubin Future planning document
+  category: Planning
+  url: "#"
+  description: Placeholder for the living planning document.
+  year: 2026
+  type: Living document
+
+- title: Meeting notes folder
+  category: Meetings
+  url: "#"
+  description: Placeholder for shared notes, agendas, and action items.
+  year: 2026
+  type: Folder
+
+- title: Rubin Observatory media use policy
+  category: Reference
+  url: "https://rubinobservatory.org/gallery/media-policy"
+  description: Guidance for using Rubin Observatory images and video.
+  year: 2026
+  type: Web page
+
+- title: Spec-S5 website source
+  category: Reference
+  url: "https://gitlab.com/noirlab/public/spec-S5"
+  description: Information-architecture reference for meetings, documents, and community pages.
+  year: 2026
+  type: Repository
