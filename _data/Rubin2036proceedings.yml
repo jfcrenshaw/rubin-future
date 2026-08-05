@@ -1,7 +1,8 @@
-- title: Placeholder for an example science case document
-  category: Science
+- title: Example placeholder document
   url: "#"
   authors: Your Names Here
-  description: Copy this block and paste it at the bottom of the page. Add your Zenodo link under "url" above and enter a one-sentence abstract under "description" here.
+  description: |
+    Add a new paper by editing the yaml file.
+    Copy this template entry, add your Zenodo link under `url`,
+    and enter a one-sentence abstract under `description`.
   date: 2026-07-05
-  type: Living document

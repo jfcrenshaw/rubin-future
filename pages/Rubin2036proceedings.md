@@ -1,11 +1,9 @@
 ---
 title: Rubin2036 Workshop Proceedings
-lede: The science cases and technical upgrades explored at the August 2026 workshop
+lede: Science cases and technical upgrades explored at the August 2026 workshop
 ---
 
-TBD
-
-## The science cases and technical discussions
+Page under construction...
 
 {% assign docs_by_date = site.data.Rubin2036proceedings | sort: "date" | reverse %}
 
@@ -14,17 +12,22 @@ TBD
     <article class="list-item">
       <div>
         <p class="item-meta">{{ doc.date | date: "%B %-d, %Y" }}</p>
-        <h2>{{ doc.title }}</h2>
+        {% if doc.url and doc.url != "#" %}
+          <h2><a href="{% include link-target.html url=doc.url %}">{{ doc.title }}</a></h2>
+        {% else %}
+          <h2>{{ doc.title }}</h2>
+        {% endif %}
         {% if doc.authors %}<p>Authors: {{ doc.authors }}</p>{% endif %}
+        {% if doc.description %}<p>{{ doc.description }}</p>{% endif %}
       </div>
     </article>
   {% endfor %}
 </div>
 
-## Instructions
+## Contributing
 
 To add your document:
-1. Upload your materials to Zenodo and save the DOI.
+1. Upload your document to Zenodo and save the DOI.
 2. In a branch or fork of this repository, edit `_data/Rubin2036proceedings.yml` to add a card for your document, including the Zenodo DOI.
 3. Make a Pull Request to this repository.
 

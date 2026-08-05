@@ -3,7 +3,7 @@ title: Community
 lede: Help shape the future of the Rubin Observatory
 ---
 
-This space is intended to be a hub for the community-led effort to plan for the next decade of science with the Rubin Observatory, after the LSST is completed. 
+This space is intended to be a hub for the community-led effort to plan for the next decade of science with the Rubin Observatory, after the LSST is completed.
 The site is intentionally small and simple so that updates can happen through ordinary GitHub edits.
 
 This site serves to:
@@ -13,7 +13,7 @@ This site serves to:
 
 ## How to Participate
 
-If you participated in the Rubin 2036 workshop, follow the instructions [here]("/pages/Rubin2036proceedings/") to add your science case document.
+If you participated in the Rubin 2036 workshop, follow the instructions <a href="{% include link-target.html url='/pages/Rubin2036proceedings/' %}">here</a> to add your science case document.
 If you did not participate but want to add a science case document, please make an issue on the GitHub repository for this site.
 
 ## Code of Conduct
