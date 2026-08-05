@@ -45,6 +45,20 @@ Edit `_data/documents.yml` and add a new entry:
 
 `description`, `year`, and `type` are optional.
 
+To group related documents into one card, add `materials`:
+
+```yaml
+- title: Document group title
+  description: Short description.
+  year: 2026
+  type: White Papers
+  materials:
+    - title: First paper
+      url: "https://example.org/first"
+    - title: Second paper
+      url: "https://example.org/second"
+```
+
 To link to an editable page that lives on this website, create a Markdown file and use a root-relative site URL:
 
 ```yaml

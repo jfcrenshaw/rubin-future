@@ -2,40 +2,37 @@
   url: "/pages/Rubin2036proceedings/"
   description: Proceedings from Rubin 2036 workshop
   year: 2026
-  type: Website page
+  type: Webpage
 
-- title: "Snowmass2021: Rubin Observatory after LSST"
-  url: "https://arxiv.org/abs/2203.07220"
+- title: Snowmass2021
+  description: Snowmass white papers related to post-LSST Rubin science.
   year: 2022
-  type: White Paper
+  type: White Papers
+  materials:
+    - title: Rubin Observatory after LSST
+      url: "https://arxiv.org/abs/2203.07220"
+    - title: Dark Energy and Cosmic Acceleration in the Modern Universe
+      url: "https://arxiv.org/abs/2209.08049"
 
-- title: "Snowmass2021: Dark Energy and Cosmic Acceleration in the Modern Universe"
-  url: "https://arxiv.org/abs/2203.07220"
-  year: 2022
-  type: White Paper
-
-- title: "Astro2020: Next Generation LSST Science"
-  url: "https://arxiv.org/abs/1907.08945"
+- title: Astro2020
+  description: Decadal survey white papers related to post-LSST Rubin science.
   year: 2019
-  type: White Paper
-
-- title: "Astro2020: LSST Narrowband Filters"
-  url: "https://arxiv.org/abs/1903.06834"
-  year: 2019
-  type: White Paper
-
-- title: "Astro2020: Future Uses of the LSST Facility: Input from the LSST Project Science Team"
-  url: "https://arxiv.org/abs/1907.10487"
-  year: 2019
-  type: White Paper
+  type: White Papers
+  materials:
+    - title: Next Generation LSST Science
+      url: "https://arxiv.org/abs/1907.08945"
+    - title: LSST Narrowband Filters
+      url: "https://arxiv.org/abs/1903.06834"
+    - title: "Future Uses of the LSST Facility: Input from the LSST Project Science Team"
+      url: "https://arxiv.org/abs/1907.10487"
 
 - title: Report on LSST Next-generation Instrumentation Workshop
   url: "https://arxiv.org/abs/1905.04669"
   year: 2019
   type: Proceedings
 
-- title: LSST Survey Cadence white papers
+- title: LSST survey cadence white papers
   url: "https://www.lsst.org/submitted-whitepaper-2018"
   description: These white papers, while submitted to shape LSST survey cadence, provide ideas for potential post-LSST survey candences.
   year: 2018
-  type: White Paper
+  type: Webpage

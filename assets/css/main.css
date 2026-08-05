@@ -388,6 +388,33 @@ h3 {
   color: var(--muted);
 }
 
+.document-links {
+  display: block;
+  margin-top: 0.85rem;
+  padding-left: 1.15rem;
+  list-style: disc;
+}
+
+.document-links li + li {
+  margin-top: 0.35rem;
+}
+
+.document-links a,
+.document-links span {
+  display: inline;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.document-links a {
+  text-decoration: underline;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   background: var(--night);
