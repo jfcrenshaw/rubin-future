@@ -15,8 +15,6 @@ navigation:
     url: /documents/
   - title: Community
     url: /community/
-  - title: About
-    url: /about/
 
 defaults:
   - scope:

@@ -67,7 +67,6 @@ The main prose pages are Markdown files in the repository root:
 - `meetings.md`
 - `documents.md`
 - `community.md`
-- `about.md`
 
 ## Local Preview
 
