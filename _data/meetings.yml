@@ -6,5 +6,5 @@
   materials:
     - title: Website
       url: "https://kipac.stanford.edu/events/kipac-workshops/kipac-workshop-rubin-2036"
-    - title: Documents
-      url: "#"
+    - title: Proceedings
+      url: "/pages/Rubin2036proceedings/"
